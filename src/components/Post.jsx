@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-export default function Posts(){
+export default function Post(){
     const [blogPosts,setBlogPosts] = useState([]);
     const API_URL = `http://localhost:3000/bacheca`;
 
